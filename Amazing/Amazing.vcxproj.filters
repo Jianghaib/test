@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="通用">
+      <UniqueIdentifier>3ee0e853-438b-4dca-8656-979a3623ff3f</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资产">
+      <UniqueIdentifier>6202aafc-a7e9-4ead-b647-71c776919e1f</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Filter Include="内容">
+      <UniqueIdentifier>69479620-96cb-440d-9917-fa899e6637eb</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="Common\DirectXHelper.h">
+      <Filter>通用</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\StepTimer.h">
+      <Filter>通用</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DeviceResources.h">
+      <Filter>通用</Filter>
+    </ClInclude>
+    <ClCompile Include="Common\DeviceResources.cpp">
+      <Filter>通用</Filter>
+    </ClCompile>
+    <ClInclude Include="Content\Sample3DSceneRenderer.h">
+      <Filter>内容</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\SampleFpsTextRenderer.h">
+      <Filter>内容</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\ShaderStructures.h">
+      <Filter>内容</Filter>
+    </ClInclude>
+    <ClCompile Include="Content\Sample3DSceneRenderer.cpp">
+      <Filter>内容</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\SampleFpsTextRenderer.cpp">
+      <Filter>内容</Filter>
+    </ClCompile>
+    <FxCompile Include="Content\SamplePixelShader.hlsl">
+      <Filter>内容</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\SampleVertexShader.hlsl">
+      <Filter>内容</Filter>
+    </FxCompile>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Filter Include="Core">
+      <UniqueIdentifier>{02568fb3-5416-4dfc-ad91-d14b2e1d5d4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStruct">
+      <UniqueIdentifier>{93748242-206a-495a-a202-698047d67706}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AZApp.cpp" />
+    <ClCompile Include="AmazingMain.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="AZGraphics.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="AZReference.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="AZMemObject.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="AZObject.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="AZScene.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="AZSpatial.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="AZNode.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="AZContainer.cpp" />
+    <ClCompile Include="AZArray.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="AZMemManager.cpp" />
+    <ClCompile Include="AZLight.cpp" />
+    <ClCompile Include="AZCamera.cpp" />
+    <ClCompile Include="AZCuller.cpp" />
+    <ClCompile Include="AZSystem.cpp" />
+    <ClCompile Include="AZPlatform.cpp" />
+    <ClCompile Include="AZCommand.cpp" />
+    <ClCompile Include="AZRenderer.cpp" />
+    <ClCompile Include="AZResourceManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AZApp.h" />
+    <ClInclude Include="AmazingMain.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="AZGraphics.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="AZReference.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="AZMemObject.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="AZObject.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="AZScene.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="AZSpatial.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="AZNode.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="AZContainer.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="AZArray.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="AZMemManager.h" />
+    <ClInclude Include="AZLight.h" />
+    <ClInclude Include="AZCamera.h" />
+    <ClInclude Include="AZCuller.h" />
+    <ClInclude Include="AZSystem.h" />
+    <ClInclude Include="AZPlatform.h" />
+    <ClInclude Include="AZCommand.h" />
+    <ClInclude Include="AZRenderer.h" />
+    <ClInclude Include="AZResourceManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>资产</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Amazing.rc" />
+  </ItemGroup>
+</Project>
