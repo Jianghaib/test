@@ -266,8 +266,10 @@
     <ClInclude Include="AZReference.h" />
     <ClInclude Include="AZRenderer.h" />
     <ClInclude Include="AZScene.h" />
+    <ClInclude Include="AZSceneManager.h" />
     <ClInclude Include="AZSpatial.h" />
     <ClInclude Include="AZSystem.h" />
+    <ClInclude Include="AZViewFamily.h" />
     <ClInclude Include="Common\DeviceResources.h" />
     <ClInclude Include="AmazingMain.h" />
     <ClInclude Include="Common\DirectXHelper.h" />
@@ -296,8 +298,10 @@
     <ClCompile Include="AZReference.cpp" />
     <ClCompile Include="AZRenderer.cpp" />
     <ClCompile Include="AZScene.cpp" />
+    <ClCompile Include="AZSceneManager.cpp" />
     <ClCompile Include="AZSpatial.cpp" />
     <ClCompile Include="AZSystem.cpp" />
+    <ClCompile Include="AZViewFamily.cpp" />
     <ClCompile Include="Common\DeviceResources.cpp" />
     <ClCompile Include="AmazingMain.cpp" />
     <ClCompile Include="Content\SampleFpsTextRenderer.cpp" />

@@ -26,6 +26,9 @@ namespace AZ
 		inline unsigned int GetBufferNum() const;
 
 		inline void SetGrowBy(unsigned int uiGrowBy);
+
+
+		T& operator[]  (unsigned int i) const;
 	};
 
 	/*template<class T, class AZMemManagerClass>

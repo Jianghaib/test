@@ -107,6 +107,8 @@
     <ClCompile Include="AZCommand.cpp" />
     <ClCompile Include="AZRenderer.cpp" />
     <ClCompile Include="AZResourceManager.cpp" />
+    <ClCompile Include="AZSceneManager.cpp" />
+    <ClCompile Include="AZViewFamily.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AZApp.h" />
@@ -147,6 +149,8 @@
     <ClInclude Include="AZCommand.h" />
     <ClInclude Include="AZRenderer.h" />
     <ClInclude Include="AZResourceManager.h" />
+    <ClInclude Include="AZSceneManager.h" />
+    <ClInclude Include="AZViewFamily.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\StoreLogo.png">
